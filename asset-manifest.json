@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/react-typescript-todo-list/static/css/main.fa6135ac.chunk.css",
-    "main.js": "/react-typescript-todo-list/static/js/main.628b3888.chunk.js",
-    "main.js.map": "/react-typescript-todo-list/static/js/main.628b3888.chunk.js.map",
+    "main.js": "/react-typescript-todo-list/static/js/main.210a0eb0.chunk.js",
+    "main.js.map": "/react-typescript-todo-list/static/js/main.210a0eb0.chunk.js.map",
     "runtime-main.js": "/react-typescript-todo-list/static/js/runtime-main.5ef3fc12.js",
     "runtime-main.js.map": "/react-typescript-todo-list/static/js/runtime-main.5ef3fc12.js.map",
-    "static/js/2.1f56beab.chunk.js": "/react-typescript-todo-list/static/js/2.1f56beab.chunk.js",
-    "static/js/2.1f56beab.chunk.js.map": "/react-typescript-todo-list/static/js/2.1f56beab.chunk.js.map",
+    "static/js/2.4ae85317.chunk.js": "/react-typescript-todo-list/static/js/2.4ae85317.chunk.js",
+    "static/js/2.4ae85317.chunk.js.map": "/react-typescript-todo-list/static/js/2.4ae85317.chunk.js.map",
     "static/js/3.72245124.chunk.js": "/react-typescript-todo-list/static/js/3.72245124.chunk.js",
     "static/js/3.72245124.chunk.js.map": "/react-typescript-todo-list/static/js/3.72245124.chunk.js.map",
     "index.html": "/react-typescript-todo-list/index.html",
     "static/css/main.fa6135ac.chunk.css.map": "/react-typescript-todo-list/static/css/main.fa6135ac.chunk.css.map",
-    "static/js/2.1f56beab.chunk.js.LICENSE.txt": "/react-typescript-todo-list/static/js/2.1f56beab.chunk.js.LICENSE.txt"
+    "static/js/2.4ae85317.chunk.js.LICENSE.txt": "/react-typescript-todo-list/static/js/2.4ae85317.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5ef3fc12.js",
-    "static/js/2.1f56beab.chunk.js",
+    "static/js/2.4ae85317.chunk.js",
     "static/css/main.fa6135ac.chunk.css",
-    "static/js/main.628b3888.chunk.js"
+    "static/js/main.210a0eb0.chunk.js"
   ]
 }
