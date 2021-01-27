@@ -1,19 +1,20 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export const NavBar: React.FC = () => {
   return (
     <nav>
       <div className="nav-wrapper green darken-2 px1">
         <div className="container">
-          <a href="/" className="brand-logo">
+          <NavLink to="/" className="brand-logo">
             Todo List
-          </a>
+          </NavLink>
           <ul className="right hide-on-med-and-down">
             <li>
-              <a href="/">Todo list</a>
+              <NavLink to="/">Todo list</NavLink>
             </li>
             <li>
-              <a href="/">Information</a>
+              <NavLink to="/about">About</NavLink>
             </li>
           </ul>
         </div>
