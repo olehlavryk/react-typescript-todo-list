@@ -11,7 +11,7 @@ export const AboutPage: React.FC = () => {
         necessitatibus! Ea esse nemo corporis aut debitis enim explicabo
         inventore.
       </p>
-      <button className="btn" onClick={() => history.push("/")}>
+      <button className="btn" onClick={() => history.push("./")}>
         Back to todo list
       </button>
     </>
