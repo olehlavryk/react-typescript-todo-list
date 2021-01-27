@@ -8,7 +8,7 @@ const App: React.FC = () => {
   const [todos, setTodos] = useState<ITodo[]>([]);
 
   const addHandler = (title: string) => {
-    const newTodo = {
+    const newTodo: ITodo = {
       id: Date.now(),
       title: title,
       completed: false,
@@ -16,12 +16,39 @@ const App: React.FC = () => {
     setTodos((prev) => [newTodo, ...prev]);
   };
 
+  const toggleHandler = (id: number) => {
+    setTodos((prev) =>
+      prev.map((todo) => {
+        if (todo.id === id) {
+          return {
+            ...todo,
+            completed: !todo.completed,
+          };
+        }
+        return todo;
+      })
+    );
+  };
+
+  const removeHandler = (id: number) => {
+    const shoudRemove = window.confirm(
+      "You are sure to want to delete the task?"
+    );
+    if (shoudRemove) {
+      setTodos((prev) => prev.filter((todo) => todo.id !== id));
+    }
+  };
+
   return (
     <>
       <NavBar />
       <div className="container">
         <TodoForm onAdd={addHandler} />
-        <TodoList todos={todos} />
+        <TodoList
+          todos={todos}
+          onRemove={removeHandler}
+          onToggle={toggleHandler}
+        />
       </div>
     </>
   );
